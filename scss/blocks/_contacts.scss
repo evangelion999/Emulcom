@@ -1,0 +1,111 @@
+.contacts {
+    padding: 140px 0;
+    background-color: $primary;
+
+    .label {
+        margin-bottom: 52px;
+    }
+
+    &__data {
+        margin-top: 40px;
+    }
+    &__data-item {
+        margin-bottom: 32px;
+        &._address {
+            .contacts__data-item-text {
+                font-weight: 400;
+                font-size: 16px;
+            }
+        }
+    }
+    &__data-item-title {
+        color: $gray2;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 120%;
+        margin-bottom: 10px;
+    }
+    &__data-item-text {
+        color: $white;
+        @include adaptiv-font(20, 18);
+        font-weight: 500;
+        line-height: 140%;
+    }
+    &__social {
+        margin-left: 20px;
+        a {
+            margin-right: 10px;
+        }
+    }
+
+    &__staff {
+        margin-bottom: 32px;
+        .contacts__social {
+            margin-left: 0;
+            a {
+                margin-right: 5px;
+            }
+        }
+    }
+    &__staff-item {
+        padding: 16px 0;
+        border-top: 1px solid $text-color;
+        border-bottom: 1px solid $text-color;
+    }
+    &__staff-item-name {
+        color: $white;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 120%;
+        margin-bottom: 4px;
+    }
+    &__staff-item-post {
+        color: $gray2;
+        font-size: 12px;
+        line-height: 100%;
+    }
+    &__staff-item-post,  &__staff-item-tel {
+        margin-bottom: 12px;
+        font-weight: 500;
+    }
+    &__staff-item-tel {
+        color: $white;
+        line-height: 140%;
+    }
+
+    &__copy {
+        color: $gray2;
+        font-size: 12px;
+        line-height: 140%;
+    }
+
+    &__right, &__form-wrap {
+        height: 100%;
+    }
+    &__form-wrap {
+        background-color: $gray;
+        padding: 72px;
+    }
+    &__form {
+        margin-top: 40px;
+    }
+    &__form-field {
+        border-radius: 2px;
+        border: none;
+        outline: none;
+        background-color: $white;
+        padding: 17px 24px;
+        margin-bottom: 24px;
+        &::placeholder {
+            color: $gray2;
+            font-size: 14px;
+            line-height: 160%;
+        }
+    }
+    &__policy {
+        color: $gray2;
+        font-size: 12px;
+        line-height: 140%;
+        margin-left: 20px;
+    }
+}

@@ -1,0 +1,33 @@
+.production {
+    padding: 140px 0;
+    
+    [class*="col"] {
+        &:first-child {
+            padding-right: 20px;
+        }
+        &:last-child {
+            padding-left: 20px;
+        }
+    }
+    &__title {
+        margin: 52px 0 32px 0;
+    }
+    &__descr {
+        margin-bottom: 40px;
+        flex-grow: 1;
+    }
+
+    &__link-block {
+        background-color: $primary;
+        padding: 20px;
+        width: 180px;
+        .arrow {
+            transform: rotate(270deg);
+        }
+        span {
+            color: $white;
+            font-size: 14px;
+            line-height: 160%;
+        }
+    }
+}

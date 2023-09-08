@@ -1,0 +1,24 @@
+.hero {
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    max-height: 830px;
+    &__img {
+        right: 0;
+        top: 0;
+        height: 100%;
+        max-width: 545px;
+    }
+    .container {
+        transform: translateY(-90%);
+    }
+    .title1 {
+        margin-bottom: 40px;
+    }
+    .arrow {
+        right: 30px;
+        bottom: 30px;
+    }
+}

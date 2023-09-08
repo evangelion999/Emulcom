@@ -1,0 +1,39 @@
+.products {
+    padding: 180px 0 140px 0;
+    &__header {
+        padding-bottom: 80px;
+    }
+    .label {
+        margin-top: 10px;
+    }
+    &__title {
+        margin-bottom: 32px;
+    }
+    &__list {
+        row-gap: 20px;
+        .col {
+            padding: 0 10px;
+        }
+    }
+    &__list-item {
+        background-color: $gray;
+        padding: 52px 72px;
+        min-height: 345px;
+        height: 100%;
+    }
+    &__item-title {
+        margin-bottom: 40px;
+    }
+    &__item-text {
+        max-width: 66%;
+        flex-grow: 1;
+    }
+    &__item-link {
+        margin-top: 40px;
+    }
+    &__item-img {
+        right: 0;
+        bottom: 0;
+        height: 100%;
+    }
+}
