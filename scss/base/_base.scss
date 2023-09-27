@@ -33,7 +33,7 @@ p {
 }
 .title2 {
     color: $primary;
-    @include adaptiv-font(36, 23);
+    font-size: 36px;
     font-weight: 700;
     line-height: 130%;
     span {

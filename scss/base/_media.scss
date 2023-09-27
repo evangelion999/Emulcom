@@ -16,6 +16,9 @@
     .title1 {
         @include adaptiv-font(52, 25);
     }
+    .title2 {
+        @include adaptiv-font(36, 23);
+    }
     
     .header {
         padding: 20px 0;

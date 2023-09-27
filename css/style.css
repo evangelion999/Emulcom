@@ -64,7 +64,7 @@ p {
 
 .title2 {
   color: #202740;
-  font-size: calc(23px + 13 * ((100vw - 320px) / 890));
+  font-size: 36px;
   font-weight: 700;
   line-height: 130%;
 }
@@ -809,6 +809,9 @@ p {
 @media (max-width: 991px) {
   .title1 {
     font-size: calc(25px + 27 * ((100vw - 320px) / 890));
+  }
+  .title2 {
+    font-size: calc(23px + 13 * ((100vw - 320px) / 890));
   }
   .header {
     padding: 20px 0;
