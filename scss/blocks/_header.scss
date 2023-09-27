@@ -18,7 +18,21 @@
 			visibility: hidden;
 		}
 	}
+
+	&._inner-page {
+		background-image: url('../img/background.jpg');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		padding: 40px;
+		margin: 0;
+		.hero__img {
+			right: 0;
+			z-index: -1;
+		}
+	}
 }
+
 .header__btn > span, .header__btn > a, .language__dropdown-list li {
 	font-size: 14px;
 	font-weight: 500;

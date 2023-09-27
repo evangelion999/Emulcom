@@ -25,6 +25,20 @@
                 max-width: 140px;
             }
         }
+
+        &._inner-page {
+            padding: 20px 15px;
+            .language__dropdown-list {
+                background: rgba(0, 0, 0, 0.35);
+                padding: 5px 8px 0 0;
+                right: 41%;
+            }
+            .language._active {
+                .language__dropdown-list {
+                    top: 90%;
+                }
+            }
+        }
     }
 
     .menu {
@@ -149,6 +163,39 @@
         .label {
             margin-bottom: 10px;
         }
+
+        &:not(._home) {
+            .contacts__map {
+                position: relative !important;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 100%;
+                max-height: 340px;
+                img {
+                    transform: scale(2);
+                }
+            }
+            .contacts__left {
+                padding: 50px 0 36px 0;
+            }
+        }
+    }
+
+    .contact-form {
+        .col {
+            &:first-child {
+                padding-right: calc(var(--bs-gutter-x) * .5);
+            }
+            &:last-child {
+                padding-left: calc(var(--bs-gutter-x) * .5);
+            }
+        }
+        &__img-wrap {
+            img {
+                max-height: 500px;
+                object-fit: cover;
+            }
+        }
     }
 }
 
@@ -167,6 +214,12 @@
             transform: translateX(0);
             img {
                 max-width: 120px;
+            }
+        }
+
+        &._inner-page {
+            .language__dropdown-list {
+                right: 25%;
             }
         }
     }
@@ -262,5 +315,32 @@
             margin-top: 20px;
             margin-left: 0;
         }
+    }
+
+    .staff {
+        .contacts__staff-item {
+            padding: 20px 0;
+            &-content {
+                padding: 30px 20px;
+            }
+            &-name, &-tel {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .contact-form {
+        &__img-wrap {
+            > div {
+                width: 100px;
+            }
+            img {
+                max-height: 340px;
+            }
+        }
+    }
+
+    .footer {
+        padding: 80px 0 60px 0;
     }
 }

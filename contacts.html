@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-utilities.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header _inner-page position-relative d-flex align-items-center justify-content-between text-white">
+        <div class="d-flex align-items-center">
+            <div class="header__btn _menu position-relative d-flex align-items-center">
+                <div class="menu-icon d-inline-block">
+                    <span class="menu-icon__line menu-icon__line-left"></span>
+                    <span class="menu-icon__line"></span>
+                    <span class="menu-icon__line menu-icon__line-right"></span>
+                </div>
+                <span class="text-uppercase">Меню</span>
+            </div>
+
+            <nav class="menu" id="menu">
+                <ul class="menu__list d-flex">
+                    <li class="menu__list-item"><a href="#">Продукция</a></li>
+                    <li class="menu__list-item"><a href="#">Продажи</a></li>
+                    <li class="menu__list-item"><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <a href="#" class="logo position-absolute d-flex"><img src="img/logo.svg" alt=""></a>
+
+        <div class="d-flex align-items-center">
+            <div class="search d-flex align-items-center justify-content-end justify-content-lg-center">
+                <form><input type="text" class="search__field"></form>
+                <div class="header__btn d-flex align-items-center">
+                    <img src="img/search.svg" alt="">
+                    <span class="text-uppercase">Поиск</span>
+                </div>
+            </div>
+
+            <div class="tel">
+                <div class="header__btn d-flex align-items-center">
+                    <img src="img/phone.svg" alt="">
+                    <a href="tel:+74959677307">+7 (495) 967-7307</a>
+                </div>
+            </div>
+
+            <div class="language position-relative">
+                <div class="header__btn d-flex align-items-center">
+                    <span>РУ</span>
+                    <img src="img/dropdown-arrow.svg" alt="">
+                </div>
+                <ul class="language__dropdown-list position-absolute">
+                    <li>РУ</li>
+                    <li>EN</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="menu _dropdown">
+            <nav class="menu__list-wrap">
+                <ul class="menu__list d-flex flex-column">
+                    <li class="menu__list-item"><a href="#">Элемент меню</a></li>
+                    <li class="menu__list-item"><a href="#">Элемент меню</a></li>
+                    <li class="menu__list-item"><a href="#">Элемент меню</a></li>
+                    <li class="menu__list-item"><a href="#">Элемент меню</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <img src="img/header-img.png" alt="" class="hero__img position-absolute">
+    </header>
+
+    <main>
+        <section class="contacts">
+            <div class="container"> 
+                <h2 class="title2">Контакты</h2>
+            </div>
+
+            <div class="contacts__main-content position-relative">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <div class="contacts__left">
+                                <h3 class="title2 text-white">Начните сотрудничество с нами прямо сейчас</h3>
+                                <div class="contacts__data">
+                                    <div class="contacts__data-item">
+                                        <p class="contacts__data-item-title">Телефон</p>
+                                        <div class="d-flex align-items-center">
+                                            <a href="tel:+74959677307" class="contacts__data-item-text">+7 (495) 967-73-07</a>
+                                            <div class="contacts__social">
+                                                <a href="#"><img src="img/tg-icon.svg" alt=""></a>
+                                                <a href="#"><img src="img/wapp-icon.svg" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="contacts__data-item">
+                                        <p class="contacts__data-item-title">Электронная почта</p>
+                                        <div class="d-flex align-items-center">
+                                            <a href="mailto:info@emulcom.ru" class="contacts__data-item-text">info@emulcom.ru</a>
+                                        </div>
+                                    </div>
+                                    <div class="contacts__data-item _address">
+                                        <p class="contacts__data-item-title">Адрес</p>
+                                        <div class="d-flex align-items-center">
+                                            <p class="contacts__data-item-text">141441, Московская обл., г. Химки, д. Елино, ул. Летняя, строение 1, этаж 1, каб. 125</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="contacts__right d-flex justify-content-center align-items-end">
+                                <a href="#" class="contacts__btn button2 position-relative z-3">
+                                    <img src="img/map-icon.svg" alt="">
+                                    <span>Посмотреть на карте</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contacts__map position-absolute overflow-hidden"><img src="img/map.png" alt=""></div>
+            </div>
+        </section>
+
+        <section class="staff">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-lg-3 row-gap-3">
+                    <div class="col">
+                        <div class="contacts__staff-item">
+                            <div class="contacts__staff-item-content">
+                                <p class="contacts__staff-item-name">Иванов Иван</p>
+                                <p class="contacts__staff-item-post">менеджер по продажам парафиновых эмульсий</p>
+                                <a href="tel:+79165554433" class="contacts__staff-item-tel">+7 (916) 555-44-33</a>
+                                <div class="contacts__social">
+                                    <a href="#"><img src="img/tg-icon.svg" alt="" width="24"></a>
+                                    <a href="#"><img src="img/wapp-icon.svg" alt="" width="24"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="contacts__staff-item">
+                            <div class="contacts__staff-item-content">
+                                <p class="contacts__staff-item-name">Сидорова Ольга</p>
+                                <p class="contacts__staff-item-post">менеджер по продажам масляных эмульсий</p>
+                                <a href="tel:+79156665544" class="contacts__staff-item-tel">+7 (915) 666-55-44</a>
+                                <div class="contacts__social">
+                                    <a href="#"><img src="img/tg-icon.svg" alt="" width="24"></a>
+                                    <a href="#"><img src="img/wapp-icon.svg" alt="" width="24"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="contacts__staff-item">
+                            <div class="contacts__staff-item-content">
+                                <p class="contacts__staff-item-name">Петров Петр</p>
+                                <p class="contacts__staff-item-post">менеджер по продажам силиконовых эмульсий</p>
+                                <a href="tel:79878889999" class="contacts__staff-item-tel">+7 (987) 888-99-99</a>
+                                <div class="contacts__social">
+                                    <a href="#"><img src="img/tg-icon.svg" alt="" width="24"></a>
+                                    <a href="#"><img src="img/wapp-icon.svg" alt="" width="24"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-lg-2 row-gap-4">
+                    <div class="col">
+                        <div class="contacts__right">
+                            <div class="contacts__form-wrap d-flex flex-column">
+                                <p class="title3">Заполните анкету, мы с Вами свяжимся</p>
+                                <form action="" class="contacts__form d-flex flex-column justify-content-between flex-grow-1">
+                                    <div class="d-flex flex-column">
+                                        <input type="text" class="contacts__form-field" placeholder="Ваше имя">
+                                        <input type="text" class="contacts__form-field" placeholder="Название компании">
+                                        <input type="tel" class="contacts__form-field" placeholder="Контактный телефон">
+                                        <input type="email" class="contacts__form-field" placeholder="Адрес электронной почты">
+                                    </div>
+                                    <div class="d-flex align-items-center mt-3 mt-sm-0 flex-column flex-sm-row text-center text-sm-start">
+                                        <button class="button2" type="submit">Отправить</button>
+                                        <a href="#" class="contacts__policy">Нажимая кнопку отправить вы соглашаетесь с политикой конфиденциальности</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="contact-form__img-wrap position-relative">
+                            <div class="position-absolute"></div>
+                            <img src="img/emulcom.png" alt="" class="w-100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__text contacts__copy">© Компания ЭМУЛЬКОМ: парафиновая эмульсия, масляная эмульсия, аналитическая лаборатория. 2008—2023 © ООО «ЭМУЛЬКОМ»</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

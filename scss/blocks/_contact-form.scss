@@ -1,0 +1,22 @@
+.contact-form {
+    &__img-wrap {
+        > div {
+            background-image: url('../img/background.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            width: 165px;
+            height: 100%;
+            top: 0;
+            left: 0;
+        }
+    }
+    .col {
+        &:first-child {
+            padding-right: 0;
+        }
+        &:last-child {
+            padding-left: 0;
+        }
+    }
+}
